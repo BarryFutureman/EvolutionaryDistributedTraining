@@ -1,0 +1,84 @@
+{
+  "move": {
+    "gadgetThrow": false,
+    "actionKey": "HEAVY",
+    "initialPowerIndex": 0
+  },
+  "powers": [
+    {
+      "powerID": 21,
+      "minCharge": 11,
+      "isCharge": true,
+      "enableFloorDrag": true,
+      "casts": [
+        {
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySetXY": {
+                "activeX": false,
+                "magnitudeX": 0.0,
+                "activeY": true,
+                "magnitudeY": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "startupFrames": 81,
+          "attackFrames": 1
+        }
+      ],
+      "onMissNextPowerIndex": 1
+    },
+    {
+      "powerID": 22,
+      "recovery": 18,
+      "stunTime": 18,
+      "enableFloorDrag": true,
+      "casts": [
+        {
+          "startupFrames": 7,
+          "attackFrames": 8,
+          "baseDamage": 18,
+          "variableForce": 55.0,
+          "fixedForce": 45.0,
+          "hitboxes": [
+            {
+              "xOffset": 96,
+              "yOffset": -27,
+              "width": 116,
+              "height": 48
+            }
+          ],
+          "frameChanges": [
+            {
+              "frame": 7,
+              "casterVelocitySetXY": {
+                "activeX": true,
+                "magnitudeX": 6.0,
+                "activeY": false,
+                "magnitudeY": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "attackFrames": 9,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySetXY": {
+                "activeX": true,
+                "magnitudeX": 2.0,
+                "activeY": false,
+                "magnitudeY": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

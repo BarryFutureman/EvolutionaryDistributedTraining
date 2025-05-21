@@ -1,0 +1,9 @@
+transformers
+trl
+peft
+bitsandbytes
+vllm
+wandb
+torchrl
+pygame
+pymunk

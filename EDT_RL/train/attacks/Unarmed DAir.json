@@ -1,0 +1,109 @@
+{
+  "move": {
+    "gadgetThrow": false,
+    "actionKey": "LIGHT",
+    "initialPowerIndex": 0
+  },
+  "powers": [
+    {
+      "powerID": 13,
+      "cooldown": 9,
+      "stunTime": 19,
+      "disableCasterGravity": true,
+      "onMissNextPowerIndex": 1,
+      "onGroundNextPowerIndex": 2,
+      "casts": [
+        {
+          "startupFrames": 4,
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySet": {
+                "active": true,
+                "magnitude": 0.0,
+                "directionDeg": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "startupFrames": 4,
+          "attackFrames": 16,
+          "baseDamage": 16,
+          "variableForce": 5.0,
+          "fixedForce": 65.0,
+          "hitboxes": [
+            {
+              "xOffset": 21,
+              "yOffset": 33,
+              "width": 30,
+              "height": 30
+            },
+            {
+              "xOffset": 27,
+              "yOffset": 40,
+              "width": 34,
+              "height": 46
+            },
+            {
+              "xOffset": 48,
+              "yOffset": 69,
+              "width": 44,
+              "height": 48
+            }
+          ],
+          "collisionCheckPoints": [
+            {
+              "xOffset": 60,
+              "yOffset": 82
+            }
+          ],
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySet": {
+                "active": true,
+                "magnitude": 8.0,
+                "directionDeg": -45.0
+              }
+            }
+          ]
+        }
+      ],
+      "onHitNextPowerIndex": 1
+    },
+    {
+      "powerID": 15,
+      "recovery": 19,
+      "stunTime": 19,
+      "casts": [
+        {
+          "startupFrames": 4,
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySet": {
+                "active": true,
+                "magnitude": 2.0,
+                "directionDeg": -45.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "powerID": 14,
+      "recovery": 23,
+      "stunTime": 19,
+      "casts": [
+        {
+          "startupFrames": 3,
+          "attackFrames": 1
+        }
+      ]
+    }
+  ]
+}

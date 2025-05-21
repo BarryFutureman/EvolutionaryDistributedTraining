@@ -1,0 +1,21 @@
+{
+  "PROJECT_NAME": "LM_EDT_EvoMerge2",
+  "BASE_DIR": "/student/jian1034/Desktop/LLM_EDT_smol",
+  "LOCAL_PACKAGE": "./train",
+
+  "INITIAL_POPULATION": [
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "Orion-zhen/Meissa-Qwen2.5-7B-Instruct",
+    "fblgit/cybertron-v4-qw7B-UNAMGS",
+    "nvidia/OpenCodeReasoning-Nemotron-7B",
+    "nvidia/AceMath-RL-Nemotron-7B",
+    "Xiaojian9992024/Qwen2.5-Dyanka-7B-Preview"
+
+  ],
+  "POPULATION_SIZE": 4,
+  "MAX_GENERATIONS": 10,
+  "EVAL_BATCH_SIZE": 16,
+  "MUTATION_PROBABILITY": 0.5,
+  "MUTATION_STRENGTH": 4,
+  "ELITISM": 1
+}

@@ -1,0 +1,15 @@
+{
+    "PROJECT_NAME": "Smol_Baseline",
+    "BASE_DIR": "",
+    "LOCAL_PACKAGE": "./train",
+  
+    "INITIAL_POPULATION": [
+      "HuggingFaceTB/SmolLM2-135M"
+    ],
+    "MAX_GENERATIONS": 32,
+    "EVAL_BATCH_SIZE": 8,
+    "MUTATION_PROBABILITY": 0.0,
+    "MUTATION_STRENGTH": 0,
+    "ELITISM": 0
+}
+  

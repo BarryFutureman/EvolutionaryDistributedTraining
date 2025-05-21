@@ -1,0 +1,469 @@
+{
+  "move": {
+    "gadgetThrow": false,
+    "actionKey": "LIGHT",
+    "initialPowerIndex": 0
+  },
+  "powers": [
+    {
+      "powerID": 1,
+      "recovery": 3,
+      "cooldown": 16,
+      "stunTime": 17,
+      "hitAngleDeg": 90.0,
+      "disableHitGravity": true,
+      "onHitVelocitySetActive": true,
+      "casts": [
+        {
+          "startupFrames": 5,
+          "attackFrames": 3,
+          "baseDamage": 3,
+          "fixedForce": 25.0,
+          "hitboxes": [
+            {
+              "xOffset": 76,
+              "yOffset": 4,
+              "width": 90,
+              "height": 66
+            }
+          ],
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySetXY": {
+                "activeX": false,
+                "magnitudeX": 0.0,
+                "activeY": true,
+                "magnitudeY": 0.0
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -8,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 5,
+              "casterVelocitySetXY": {
+                "activeX": true,
+                "magnitudeX": 0.0,
+                "activeY": false,
+                "magnitudeY": 0.0
+              },
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 80,
+                "yOffset": -40
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 33,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 8,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 80,
+                "yOffset": -40
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 0,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            }
+          ]
+        }
+      ],
+      "onMissNextPowerIndex": 1
+    },
+    {
+      "powerID": 2,
+      "stunTime": 17,
+      "hitAngleDeg": -85.0,
+      "disableHitGravity": true,
+      "onHitVelocitySetActive": true,
+      "onMissNextPowerIndex": 4,
+      "casts": [
+        {
+          "startupFrames": 6,
+          "attackFrames": 6,
+          "baseDamage": 3,
+          "fixedForce": 20.0,
+          "hitboxes": [
+            {
+              "xOffset": 74,
+              "yOffset": -29,
+              "width": 74,
+              "height": 72
+            },
+            {
+              "xOffset": 51,
+              "yOffset": -8,
+              "width": 44,
+              "height": 74
+            }
+          ],
+          "frameChanges": [
+            {
+              "frame": 0,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 80,
+                "yOffset": -40
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 17,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 3,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 25,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 6,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 90,
+                "yOffset": -20
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 16,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 9,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 90,
+                "yOffset": -20
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 0,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            }
+          ]
+        }
+      ],
+      "onHitNextPowerIndex": 2
+    },
+    {
+      "powerID": 3,
+      "recovery": 3,
+      "stunTime": 20,
+      "hitAngleDeg": 90.0,
+      "disableHitGravity": true,
+      "onHitVelocitySetActive": true,
+      "onMissNextPowerIndex": 3,
+      "casts": [
+        {
+          "startupFrames": 6,
+          "attackFrames": 3,
+          "baseDamage": 3,
+          "fixedForce": 26.0,
+          "hitboxes": [
+            {
+              "xOffset": 61,
+              "yOffset": -2,
+              "width": 88,
+              "height": 130
+            }
+          ],
+          "frameChanges": [
+            {
+              "frame": 0,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 90,
+                "yOffset": -20
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 24,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 3,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 90,
+                "yOffset": -20
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 27,
+                "yOffset": -30,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 6,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 110,
+                "yOffset": -40
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 0,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 9,
+              "dealtPositionTarget": {
+                "active": true,
+                "xOffset": 110,
+                "yOffset": -40
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 30,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            }
+          ]
+        }
+      ],
+      "onHitNextPowerIndex": 3
+    },
+    {
+      "powerID": 4,
+      "recovery": 22,
+      "stunTime": 23,
+      "hitAngleDeg": 30.0,
+      "casts": [
+        {
+          "startupFrames": 3,
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 5,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 3,
+              "casterVelocitySetXY": {
+                "activeX": true,
+                "magnitudeX": 1.0,
+                "activeY": false,
+                "magnitudeY": 0.0
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 0,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            }
+          ]
+        },
+        {
+          "startupFrames": 3,
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -33,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            }
+          ]
+        },
+        {
+          "startupFrames": 3,
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 3,
+              "casterVelocitySetXY": {
+                "activeX": true,
+                "magnitudeX": 0.4,
+                "activeY": false,
+                "magnitudeY": 0.0
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -55,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            }
+          ]
+        },
+        {
+          "startupFrames": 2,
+          "attackFrames": 5,
+          "baseDamage": 5,
+          "variableForce": 31.0,
+          "fixedForce": 52.0,
+          "hitboxes": [
+            {
+              "xOffset": 39,
+              "yOffset": 10,
+              "width": 116,
+              "height": 62
+            }
+          ],
+          "frameChanges": [
+            {
+              "frame": 2,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -62,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 8,
+              "casterVelocitySetXY": {
+                "activeX": true,
+                "magnitudeX": 0.0,
+                "activeY": false,
+                "magnitudeY": 0.0
+              },
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -54,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 10,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -50,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 12,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -46,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 14,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -45,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 15,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -32,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 17,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -26,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 19,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": -12,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            },
+            {
+              "frame": 20,
+              "hurtboxPositionChange": {
+                "active": true,
+                "xOffset": 0,
+                "yOffset": 0,
+                "width": 290,
+                "height": 320
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "powerID": 5,
+      "fixedRecovery": 2,
+      "recovery": 9,
+      "casts": [
+        {
+          "attackFrames": 1,
+          "baseDamage": -1,
+          "variableForce": -1.0,
+          "fixedForce": -1.0
+        }
+      ]
+    }
+  ]
+}

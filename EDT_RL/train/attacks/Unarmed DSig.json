@@ -1,0 +1,117 @@
+{
+  "move": {
+    "gadgetThrow": false,
+    "actionKey": "HEAVY",
+    "initialPowerIndex": 0
+  },
+  "powers": [
+    {
+      "powerID": 26,
+      "minCharge": 2,
+      "isCharge": true,
+      "enableFloorDrag": true,
+      "casts": [
+        {
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySetXY": {
+                "activeX": false,
+                "magnitudeX": 0.0,
+                "activeY": true,
+                "magnitudeY": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "startupFrames": 72,
+          "attackFrames": 1
+        }
+      ],
+      "onMissNextPowerIndex": 1
+    },
+    {
+      "powerID": 27,
+      "recovery": 21,
+      "stunTime": 18,
+      "hitAngleDeg": 10.0,
+      "enableFloorDrag": true,
+      "casts": [
+        {
+          "startupFrames": 7,
+          "attackFrames": 2,
+          "baseDamage": 16,
+          "variableForce": 60.0,
+          "fixedForce": 40.0,
+          "hitboxes": [
+            {
+              "xOffset": 27,
+              "yOffset": 44,
+              "width": 144,
+              "height": 68
+            }
+          ]
+        },
+        {
+          "attackFrames": 5,
+          "baseDamage": 16,
+          "variableForce": 60.0,
+          "fixedForce": 40.0,
+          "hitboxes": [
+            {
+              "xOffset": 43,
+              "yOffset": 41,
+              "width": 146,
+              "height": 100
+            },
+            {
+              "xOffset": 108,
+              "yOffset": 24,
+              "width": 126,
+              "height": 94
+            }
+          ]
+        },
+        {
+          "startupFrames": 9,
+          "attackFrames": 3,
+          "baseDamage": 16,
+          "variableForce": 60.0,
+          "fixedForce": 40.0,
+          "hitAngleDeg": 170.0,
+          "hitboxes": [
+            {
+              "xOffset": -60,
+              "yOffset": 42,
+              "width": 114,
+              "height": 90
+            },
+            {
+              "xOffset": -26,
+              "yOffset": 54,
+              "width": 156,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "attackFrames": 2,
+          "baseDamage": 16,
+          "variableForce": 60.0,
+          "fixedForce": 40.0,
+          "hitAngleDeg": 170.0,
+          "hitboxes": [
+            {
+              "xOffset": -46,
+              "yOffset": 59,
+              "width": 166,
+              "height": 84
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

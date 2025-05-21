@@ -1,0 +1,73 @@
+{
+  "move": {
+    "gadgetThrow": false,
+    "actionKey": "HEAVY",
+    "initialPowerIndex": 0
+  },
+  "powers": [
+    {
+      "powerID": 28,
+      "minCharge": 10,
+      "isCharge": true,
+      "enableFloorDrag": true,
+      "casts": [
+        {
+          "attackFrames": 1,
+          "frameChanges": [
+            {
+              "frame": 0,
+              "casterVelocitySetXY": {
+                "activeX": false,
+                "magnitudeX": 0.0,
+                "activeY": true,
+                "magnitudeY": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "startupFrames": 72,
+          "attackFrames": 1
+        }
+      ],
+      "onMissNextPowerIndex": 1
+    },
+    {
+      "powerID": 29,
+      "fixedRecovery": 4,
+      "recovery": 16,
+      "stunTime": 18,
+      "hitAngleDeg": 90.0,
+      "enableFloorDrag": true,
+      "casts": [
+        {
+          "startupFrames": 4,
+          "attackFrames": 6,
+          "baseDamage": 20,
+          "variableForce": 46.0,
+          "fixedForce": 40.0,
+          "hitboxes": [
+            {
+              "xOffset": 53,
+              "yOffset": -42,
+              "width": 34,
+              "height": 140
+            },
+            {
+              "xOffset": 40,
+              "yOffset": -86,
+              "width": 42,
+              "height": 130
+            },
+            {
+              "xOffset": 27,
+              "yOffset": 0,
+              "width": 46,
+              "height": 94
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

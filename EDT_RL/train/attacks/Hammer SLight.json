@@ -1,0 +1,87 @@
+{
+  "move": {
+    "gadgetThrow": false,
+    "actionKey": "LIGHT",
+    "initialPowerIndex": 0
+  },
+  "powers": [
+    {
+      "powerID": 142,
+      "cooldown": 11,
+      "stunTime": 25,
+      "onMissNextPowerIndex": 2,
+      "casts": [
+        {
+          "startupFrames": 9,
+          "attackFrames": 3
+        },
+        {
+          "attackFrames": 4,
+          "baseDamage": 17,
+          "variableForce": 8.0,
+          "fixedForce": 56.0,
+          "hitboxes": [
+            {
+              "xOffset": 190,
+              "yOffset": -50,
+              "width": 116,
+              "height": 96
+            },
+            {
+              "xOffset": 217,
+              "yOffset": -39,
+              "width": 78,
+              "height": 120
+            }
+          ]
+        },
+        {
+          "attackFrames": 5,
+          "baseDamage": 15,
+          "variableForce": 8.0,
+          "fixedForce": 30.0,
+          "hitboxes": [
+            {
+              "xOffset": 203,
+              "yOffset": -50,
+              "width": 90,
+              "height": 96
+            },
+            {
+              "xOffset": 217,
+              "yOffset": -39,
+              "width": 78,
+              "height": 120
+            }
+          ]
+        }
+      ],
+      "onHitNextPowerIndex": 1
+    },
+    {
+      "powerID": 143,
+      "recovery": 19,
+      "casts": [
+        {
+          "attackFrames": 1,
+          "baseDamage": -1,
+          "variableForce": -1.0,
+          "fixedForce": -1.0
+        }
+      ]
+    },
+    {
+      "powerID": 144,
+      "fixedRecovery": 1,
+      "recovery": 23,
+      "casts": [
+        {
+          "attackFrames": 1,
+          "baseDamage": -1,
+          "variableForce": -1.0,
+          "fixedForce": -1.0
+        }
+      ]
+    }
+  ]
+}
